@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: zzz
+  buildpack: java_buildpack
+  path: ./target/zzz-1.0-SNAPSHOT.jar
+  memory: 256M
+  random-route: true
